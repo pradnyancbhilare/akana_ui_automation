@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user key="automation2020-2-mysql80-cm">
+		<url>http://automation2020-2-oracle.aws.akana.roguewave.com:7900/atmosphere/#/home/landing</url>
+		<username>administrator@atmosphere</username>
+		<password>Passw0rd!</password>
+	</user>
+	<user key="akana-qa-8-pm">
+		<url>http://akana-qa-74.aws.akana.roguewave.com:7900/ms/index.do</url>
+		<username>administrator</username>
+		<password>password</password>
+	</user>
+	<user key="akana-qa-12-envision">
+		<url>http://akana-qa-74.aws.akana.roguewave.com:7900/analytics/#!login</url>
+		<username>administrator</username>
+		<password>password</password>
+	</user>
+	<user key="akana-qa-lm">
+		<url>http://akana-qa-lm.aws.akana.roguewave.com:7900/lm/application/access/suLogin.do</url>
+		<username>administrator</username>
+		<password>password</password>
+	</user>
+	<user key="akana-qa-73-ac">
+		<url>http://akana-qa-74.aws.akana.roguewave.com:7900/admin/login.html</url>
+		<username>administrator</username>
+		<password>password</password>
+	</user>
+</users>

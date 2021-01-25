@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AutomationSuite" verbose="1">
+  <test name="Parameterized groupings">
+    <groups>
+      <run>
+     <!-- <exclude name="${groups.excluded}" />
+        <include name="${groups.included}" /> -->
+        <include name="framework" />
+      </run>
+    </groups>
+    <packages>
+      <package name="com.perforce.akana.qa" />
+    </packages>
+    
+    
+  </test>
+  <listeners>
+        <listener class-name="com.perforce.akana.qa.testng.test.CustomListener" />
+  </listeners>
+</suite>
